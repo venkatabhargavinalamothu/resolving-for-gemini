@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sweet Dreams Ice Cream</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f0f8ff;
+    }
+
+    header {
+      background-color: #ffc107;
+      padding: 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    header h1 {
+      font-size: 2em;
+      margin: 0;
+    }
+
+    nav ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    nav li {
+      display: inline-block;
+      margin-right: 20px;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: #333;
+    }
+
+    main {
+      padding: 50px;
+    }
+
+    section {
+      margin-bottom: 50px;
+    }
+
+    section h2 {
+      font-size: 1.5em;
+      margin-bottom: 20px;
+    }
+
+    .flavor-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 20px;
+    }
+
+    .flavor-item {
+      background-color: #fff;
+      border-radius: 5px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      padding: 20px;
+      text-align: center;
+    }
+
+    .flavor-item img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 5px;
+      margin-bottom: 10px;
+    }
+
+    .flavor-item h3 {
+      font-size: 1.2em;
+      margin-bottom: 5px;
+    }
+
+    .flavor-item p {
+      margin-bottom: 15px;
+    }
+
+    .flavor-item span {
+      font-weight: bold;
+    }
+
+    footer {
+      background-color: #ffc107;
+      padding: 20px;
+      text-align: center;
+      color: #fff;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Sweet Dreams Ice Cream</h1>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#flavors">Flavors</a></li>
+        <li><a href="#locations">Locations</a></li> <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home">
+      <h2>Welcome to Sweet Dreams!</h2>
+      <p>Indulge in our handcrafted ice cream made with fresh, high-quality ingredients. We offer a variety of classic and unique flavors to satisfy every craving.</p>
+      <img src="images/ice-cream-cone.jpg" alt="Ice cream cone">
+    </section>
+
+    <section id="flavors">
+      <h2>Our Delicious Flavors</h2>
+      <div class="flavor-grid">
+        <div class="flavor-item">
+          <img src="images/chocolate-chip.jpg" alt="Chocolate Chip Ice Cream">
+          <h3>Chocolate Chip Cookie Dough</h3>
+          <p>Rich chocolate ice cream packed with chewy chocolate chip cookie dough pieces.</p>
+          <span>$4.50</span>
+        </div>
+        <div class="flavor-item">
+          <img src="images/strawberry.jpg" alt="Strawberry Ice Cream">
+          <h3>Strawberry Swirl</h3>
+          <p>Creamy strawberry ice cream swirled with tart strawberry jam.</
